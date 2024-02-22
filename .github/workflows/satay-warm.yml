@@ -1,8 +1,8 @@
-name: Call API a cada 1 minuto
+name: Call API each minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Executar a cada minuto
+    - cron: '*/1 * * * *'  # Each minute
 
 jobs:
   call-api:
